@@ -1,28 +1,71 @@
 @font-face {
-  font-family: Netto;
+  font-family: NettoBold;
   src: local("NettoOT-Bold"),
   local("NettoOT-Bold"),
   url(NettoOT-Bold.otf);
-  font-weight: bold;
+  font-weight: bolder;
+}
+@font-face {
+  font-family: NettoLight;
+  src: local("NettoOT-Light"),
+  local("NettoOT-Light"),
+  url(NettoOT-Light.otf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: NettoStandard;
+  src: local("NettoOT-Standard"),
+  local("NettoOT-Standard"),
+  url(NettoOT-Standard.otf);
+  font-weight: normal;
 }
 body {
     background-color: rgb(255,255,255);
     color: rgb(0,0,0);
-    font-family: "Netto", sans-serif;
+    font-family: "NettoStandard", sans-serif;
 }
 
-#content {
+content {
     display: block;
     margin-left: auto;
     margin-right: auto
 }
-
-header {
-	font-family: "Netto", sans-serif;
+#header {
+	background-color: rgb(0,0,0);
+	padding:10px;
+	color: rgb(255,255,255);
+	font-family: "NettoBold", sans-serif;
+	text-align:center;
+	text-decoration: underline;
 }
+#programs {
+    padding: 25px;
+    border: 25px solid black;
+    margin: 25px;
 
-footer {
-	font-family: "Netto", sans-serif;
+}
+#footer {
+	font-family: "NettoLight", sans-serif;
 	font-style: italic;
 	font-size: 90%;
+	text-align:center;
+	padding:10px;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none; color:rgb(0,0,0); 
+}
+a:hover { 
+	text-decoration: none; color:rgb(200,200,200); 
+}
+a:focus { 
+	text-decoration: none; color:rgb(200,200,200); 
+}
+a:hover, a:active { 
+	text-decoration: none; color:rgb(200,200,200);
+}
+li {
+	background-color:rgb(150,150,150);
 }
