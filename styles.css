@@ -35,8 +35,10 @@ content {
 	padding:10px;
 	color: rgb(255,255,255);
 	font-family: "NettoBold", sans-serif;
+  color: white;
+  text-shadow: 1px 1px rgb(100,100,100), 2px 2px rgb(100,100,100), 3px 3px rgb(100,100,100);
 	text-align:center;
-	text-decoration: underline;
+	text-decoration: none;
 }
 #programs {
     padding: 25px;
@@ -50,6 +52,61 @@ content {
 	font-size: 90%;
 	text-align:center;
 	padding:10px;
+}
+#OriginalDesign {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#Lightning {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#Dice {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#SnowflakeCatcher {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#Chemotaxis {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#Starfield {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#AsteroidsGame {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#SierpinskiTriangle {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#FractalTree {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#OriginalFractal {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+}
+#Minesweeper {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
 }
 a {
 	text-decoration: none;
@@ -69,3 +126,4 @@ a:hover, a:active {
 li {
 	background-color:rgb(150,150,150);
 }
+
