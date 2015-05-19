@@ -20,7 +20,7 @@
   font-weight: normal;
 }
 body {
-    background-color: rgb(255,255,255);
+    background-color: #68B3AF;
     color: rgb(0,0,0);
     font-family: "NettoStandard", sans-serif;
 }
@@ -39,12 +39,14 @@ content {
   text-shadow: 1px 1px rgb(100,100,100), 2px 2px rgb(100,100,100), 3px 3px rgb(100,100,100);
 	text-align:center;
 	text-decoration: none;
+	box-shadow: 0 8px 6px -6px black;
 }
 #programs {
     padding: 25px;
     border: 25px solid black;
     margin: 25px;
-
+    background-color: #87BDB1;
+    box-shadow: 0 8px 6px -6px black;
 }
 #footer {
 	font-family: "NettoLight", sans-serif;
@@ -57,62 +59,85 @@ content {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #Lightning {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #Dice {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #SnowflakeCatcher {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #Chemotaxis {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #Starfield {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #AsteroidsGame {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #SierpinskiTriangle {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #FractalTree {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #OriginalFractal {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 #Minesweeper {
   padding: 10px;
   border: 5px solid black;
   margin: 5px;
+  box-shadow:         inset 0 0 10px #000000;
+  background-color: #AACCB1;
 }
 a {
 	text-decoration: none;
+	color:rgb(100,100,100);
 }
 a:visited {
-	text-decoration: none; color:rgb(0,0,0); 
+	text-decoration: none; color:rgb(50,50,50); 
 }
 a:hover { 
 	text-decoration: none; color:rgb(200,200,200); 
