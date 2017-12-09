@@ -1,0 +1,78 @@
+body {
+  padding-top: 85px;
+  padding-bottom: 50px;
+  background-color:#191929;
+  color: #d0cfd6;
+}
+
+.jumbotron {
+  background-color: #2a2a3f;
+  color: #d0cfd6;
+}
+
+.navbar-custom {
+  background-color: #414156;
+}
+
+.list-group-item{
+  background-color: #3b3b4f;
+  color: #c6c5cc;
+}
+
+.image-text {
+   background: rgba(0, 0, 0, 0.60);
+   padding: 25px;
+}
+
+.form-entry {
+  display: inline-block;
+  width: 120px;
+}
+
+#cliffhouse {
+    color: #dad9e0;
+    background-image: url("/assets/img/cliffhouse.jpg");
+    background-size: cover;
+}
+
+#landsend {
+    color: #dad9e0;
+    background-image: url("/assets/img/landsend.jpg");
+    background-size: cover;
+}
+
+#goldengate {
+    color: #dad9e0;
+    background-image: url("/assets/img/goldengate.jpg");
+    background-size: cover;
+}
+
+#seagull {
+    color: #dad9e0;
+    background-image: url("/assets/img/seagull.jpg");
+    background-size: cover;
+}
+
+#lake {
+    color: #dad9e0;
+    background-image: url("/assets/img/lake.jpg");
+    background-size: cover;
+}
+
+#sidebar a {
+  border-width: 1px;
+  border-style: solid;
+  display: block;
+  padding: 8px 16px;
+  background-color: #222233;
+  color: #d0cfd6;
+}
+
+#sidebar a:hover {
+  border-width: 1px;
+  border-style: solid;
+  display: block;
+  padding: 8px 16px;
+  background-color: #1d1d2b;
+  color: #d0cfd6;
+}
