@@ -44,15 +44,15 @@
         <div class="row">
           <div class="col-sm">
             <div class="jumbotron">
-              <form action="guestbook-add.php" method="post">
+              <form method="post" role="form" action="guestbook-add.php" >
                 <div class="form group">
-                  <label>First name</label>
-                  <input type="firstName" class="form-control" placeholder="Enter first name">
+                  <label for="firstName" class="col-form-label">First name</label>
+                  <input type="text" name="firstName" class="form-control" placeholder="Enter first name">
                   <br>
-                  <label>Last name</label>
+                  <label for="lastName" class="col-form-label">Last name</label>
                   <input type="lastName" class="form-control" placeholder="Enter last name">
                   <br>
-                  <label>Email address</label>
+                  <label for="email" class="col-form-label">Email address</label>
                   <input type="email" class="form-control" placeholder="Enter email address">
                   <br>
                   <button type="submit" class="btn btn-secondary">Submit</button>
