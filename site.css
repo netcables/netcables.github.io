@@ -31,31 +31,31 @@ body {
 
 #cliffhouse {
     color: #dad9e0;
-    background-image: url("/assets/img/cliffhouse.JPG");
+    background-image: url("https://netcables.github.io/assets/img/cliffhouse.jpg");
     background-size: cover;
 }
 
 #landsend {
     color: #dad9e0;
-    background-image: url("/assets/img/landsend.JPG");
+    background-image: url("https://netcables.github.io/assets/img/landsend.JPG");
     background-size: cover;
 }
 
 #goldengate {
     color: #dad9e0;
-    background-image: url("/assets/img/goldengate.JPG");
+    background-image: url("https://netcables.github.io/assets/img/goldengate.JPG");
     background-size: cover;
 }
 
 #seagull {
     color: #dad9e0;
-    background-image: url("/assets/img/seagull.JPG");
+    background-image: url("https://netcables.github.io/assets/img/seagull.JPG");
     background-size: cover;
 }
 
 #lake {
     color: #dad9e0;
-    background-image: url("/assets/img/lake.JPG");
+    background-image: url("https://netcables.github.io/assets/img/lake.JPG");
     background-size: cover;
 }
 
